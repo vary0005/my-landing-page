@@ -137,8 +137,10 @@ h2 {
 .grey-container p{
   font-size: 4rem;
   text-align: center;
-  color: #0e4bef;
+  color: black;
   padding-bottom: 2rem;
+  font-style: italic;
+  font-family: eurostile;
 }
 
 .grey-container iframe {
@@ -178,6 +180,15 @@ h2 {
   overflow: hidden;
   width: 100%;
 }
+
+
+.whitish-container p12{
+  display: inline-block;
+  font-size: 2rem;
+  padding-bottom: .5rem;
+  padding-top: 3rem;
+  padding-left: 6rem;
+  }
 
 .whitish-container p1, p2, p3, p4, p5, p6 {
 display: inline-block;
