@@ -169,6 +169,30 @@ h2 {
   overflow: hidden;
   width: 100%;
 }
+
+.whitish-container p1, p2, p3, p4, p5, p6 {
+display: inline-block;
+font-size: 2rem;
+padding-bottom: .5rem;
+padding-top: 3rem;
+padding-left: 6rem;
+display: list-item;
+list-style-position: inside;
+}
+
+.whitish-container p1, p3, p5 {
+  color: black;
+}
+
+.whitish-container p2, p4, p6 {
+  color: #3366FF;
+}
+
+.whitish-container p1 {
+padding-top: 6rem;
+}
+
+
 #features {
   margin-top: 30px;
 }
