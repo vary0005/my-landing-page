@@ -103,11 +103,15 @@ display: inline-block;
 .hero .btn {
   background-color: blue;
   color: white;
+ 
+  border-radius: 25px;
 }
 
 .hero .btn:hover {
   background-color: lightblue;
   color: #092577;
+
+  border-radius: 25px;
 }
 
 h2 {
