@@ -69,7 +69,7 @@ li {
 
 #home {
   width:100%;
-  height: 725px;
+  height: 740px;
 }
 
 #header {
@@ -83,6 +83,12 @@ li {
   justify-content: center;
   color: blue;
   background-color:#0e4bef;
+  padding: 5px;
+}
+
+.menu-down .btn  {
+  padding: 8px;
+  color: blue;
 }
 
 .hero {
@@ -176,6 +182,20 @@ h2 {
    
 }
 
+.price-container {
+  width: 100%;
+  color: black;
+  background-color: #E5E6E8;
+  height: 60rem;
+  overflow: hidden;
+  width: 100%;
+}
+.price-container p{
+  font-size: 4rem;
+  text-align: center;
+  color: #0e4bef;
+  padding-bottom: 2rem;
+}
 
   .price-wrap {
     display: flex;
@@ -186,7 +206,7 @@ h2 {
 .price-wrap div {
     display: flex;
     flex-direction: column;
-    flex-basis: 15%;
+    flex-basis: 20%;
     border: 1px solid black;
     text-align: center;
     background-color:hsla(182, 100%, 94%, 1);
